@@ -2,14 +2,12 @@ class GuessingGame {
     constructor() {}
 
     setRange(min, max) {
-        this.min = min; 
-        this.max = max;
+        this.min = min
+        this.max = max
     }
 
     guess() {
-        this.res = Math.round((this.min+this.max)/2);
-        console.log(this.res)
-        return this.res
+        return this.res = Math.round((this.max + this.min)/2)
     }
 
     lower() {
